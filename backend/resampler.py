@@ -142,7 +142,7 @@ class DataResampler:
             # Save to database
             self._save_resampled_data(symbol, timeframe, ohlcv_df)
             
-            logger.debug(f"Resampled {symbol} for {timeframe}: {len(ohlcv_df)} bars")
+            logger.info(f"Resampled {symbol} for {timeframe}: {len(ohlcv_df)} bars")
             
         except Exception as e:
             logger.error(f"Error resampling {symbol} for {timeframe}: {e}")
