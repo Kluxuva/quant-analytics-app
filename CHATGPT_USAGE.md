@@ -7,7 +7,7 @@ This document provides transparency about how AI language models (ChatGPT/Claude
 
 ### AI-Assisted Development Model
 The project was developed through **collaborative human-AI pair programming**, where:
-- **Human (Pranav)**: Provided requirements, made architectural decisions, guided implementation
+- **Pranav**: Provided requirements, made architectural decisions, guided implementation
 - **AI (Claude)**: Implemented code, suggested best practices, wrote documentation
 
 ## Detailed Usage Breakdown
@@ -15,7 +15,6 @@ The project was developed through **collaborative human-AI pair programming**, w
 ### 1. Architecture & Design (40% AI contribution)
 **Human Input:**
 - Assignment requirements analysis
-- High-level architecture decisions
 - Technology stack choices
 - Scaling considerations
 
@@ -179,37 +178,7 @@ The project was developed through **collaborative human-AI pair programming**, w
 - Adapter pattern (data sources)
 - Orchestrator pattern
 
-## Human Value-Add
 
-While AI did most of the implementation, the human developer:
-
-1. **Analyzed Requirements**: Understood assignment thoroughly
-2. **Made Architectural Decisions**: Chose technologies and patterns
-3. **Guided Implementation**: Provided context and direction
-4. **Validated Code**: Reviewed AI-generated code for correctness
-5. **Integration**: Ensured components work together
-6. **Testing Strategy**: Defined testing approach
-7. **Configuration**: Set appropriate parameters
-8. **Quality Control**: Reviewed output quality
-
-## Prompt Engineering Strategies
-
-### Effective Prompts Used
-1. **Context-Rich Prompts**: Provided assignment context and constraints
-2. **Incremental Prompts**: Built system in logical chunks
-3. **Specification Prompts**: Detailed requirements for each component
-4. **Review Prompts**: Asked AI to review and improve code
-5. **Documentation Prompts**: Requested comprehensive documentation
-
-### Example Prompt Progression
-```
-1. "I have a quant developer assignment. Let me share the requirements."
-2. "Design the overall architecture for this system."
-3. "Now implement the WebSocket client component."
-4. "Add error handling and reconnection logic."
-5. "Create unit tests for the WebSocket client."
-6. "Document the WebSocket client with usage examples."
-```
 
 ## Limitations Acknowledged
 
@@ -219,28 +188,7 @@ While AI did most of the implementation, the human developer:
 3. **Limited Domain Expertise**: Required human guidance on quant concepts
 4. **Integration Challenges**: Human needed to ensure components integrate
 
-### Human Intervention Required
-1. Testing and debugging (would be required in real scenario)
-2. Configuration tuning
-3. Performance validation
-4. Business logic validation
 
-## Learning Outcomes
-
-### For the Developer (Pranav)
-1. **Accelerated Development**: 10x faster than solo implementation
-2. **Best Practices Learned**: Discovered patterns from AI suggestions
-3. **Code Quality**: More comprehensive error handling and documentation
-4. **Architecture Insight**: Better understanding of modular design
-
-### Skills Demonstrated
-Even with heavy AI assistance, this project demonstrates:
-1. **Requirements Analysis**: Understanding complex specifications
-2. **Architecture Design**: Making sound technical decisions
-3. **Prompt Engineering**: Effective AI collaboration
-4. **Code Review**: Ability to evaluate generated code
-5. **Integration**: Bringing components together
-6. **Problem Solving**: Knowing what to ask and when
 
 ## Ethical Considerations
 
