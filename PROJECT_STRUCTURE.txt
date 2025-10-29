@@ -1,0 +1,22 @@
+.
+|____CHATGPT_USAGE.md
+|____DELIVERABLES.md
+|____PROJECT_STRUCTURE.txt
+|____QUICKSTART.md
+|____README.md
+|____SUBMISSION_SUMMARY.md
+|____app.py
+|____backend
+| |______init__.py
+| |____alerts.py
+| |____analytics.py
+| |____database.py
+| |____orchestrator.py
+| |____resampler.py
+| |____websocket_client.py
+|____config.py
+|____docs
+| |____ARCHITECTURE.md
+|____requirements.txt
+|____start.py
+|____test_system.py
