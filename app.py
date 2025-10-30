@@ -18,7 +18,7 @@ from backend.alerts import Alert, alert_manager
 
 # Page configuration
 st.set_page_config(
-    page_title="Quant Analytics Dashboard",
+    page_title="Quant Analytics App",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
