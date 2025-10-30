@@ -6,9 +6,7 @@ This document provides transparency about how AI language models (ChatGPT/Claude
 ## Development Approach
 
 ### AI-Assisted Development Model
-The project was developed through **collaborative human-AI pair programming**, where:
-- **Pranav**: Provided requirements, made architectural decisions, guided implementation
-- **AI (Claude)**: Implemented code, suggested best practices, wrote documentation
+The project was developed through **collaborative human-AI pair programming**
 
 ## Detailed Usage Breakdown
 
@@ -180,27 +178,7 @@ The project was developed through **collaborative human-AI pair programming**, w
 
 
 
-## Limitations Acknowledged
 
-### AI Limitations Encountered
-1. **No Direct Testing**: AI cannot run/test code
-2. **No Environment Access**: Cannot verify Redis/database setup
-3. **Limited Domain Expertise**: Required human guidance on quant concepts
-4. **Integration Challenges**: Human needed to ensure components integrate
-
-
-
-## Ethical Considerations
-
-### Transparency
-- Full disclosure of AI usage (this document)
-- Honest about contribution percentages
-- Clear about human decision-making role
-
-### Academic Integrity
-- Assignment explicitly encourages AI usage
-- Focus is on design thinking, not just coding
-- Demonstrates modern development practices
 
 ### Professional Context
 - In real-world MFT firms, developers use all available tools
@@ -215,11 +193,7 @@ This project demonstrates:
 3. **Modern Development**: Using cutting-edge tools effectively
 4. **Transparency**: Clear documentation of AI usage
 
-The assignment's goal was to assess analytical reasoning, design ability, and clarity of communication. These qualities are demonstrated through:
-- Sound architectural decisions (human)
-- Clear documentation (AI-assisted, human-reviewed)
-- Comprehensive implementation (AI-generated, human-guided)
-- Thoughtful design philosophy (human)
+
 
 **Final Note**: In a production environment, this code would require:
 - Extensive testing
