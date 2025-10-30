@@ -268,30 +268,6 @@ SQLITE_DB = str(DATA_DIR / "analytics.db")
 - Time-series database (InfluxDB/TimescaleDB)
 - Kubernetes orchestration
 
-## 🤖 LLM Usage Transparency
-
-### ChatGPT/Claude Usage
-This project was developed with significant assistance from AI language models:
-
-**Areas of AI Assistance**:
-1. **Architecture Design**: Initial system design and component structure
-2. **Code Implementation**: Complete implementation of all modules
-3. **Documentation**: README, docstrings, and comments
-4. **Best Practices**: Threading, error handling, database design
-5. **Statistical Methods**: Implementation of regression and tests
-
-**Prompts Used** (examples):
-- "Design a modular architecture for real-time pair trading analytics"
-- "Implement WebSocket client for Binance with tick data buffering"
-- "Create Streamlit dashboard with real-time updates and Plotly charts"
-- "Implement OLS, Huber, and Theil-Sen regression for hedge ratio"
-- "Design alert system with callback support"
-
-**Human Contributions**:
-- Requirements analysis
-- Architecture decisions
-- Testing and validation
-- Configuration and deployment
 
 ## 📝 Project Structure
 
@@ -380,17 +356,6 @@ Core libraries and their purposes:
 - `sqlalchemy`: Database ORM
 - `redis`: Optional caching layer
 
-## 🎓 Educational Value
-
-This project demonstrates:
-- Real-time data pipeline design
-- Statistical pair trading concepts
-- WebSocket integration
-- Database design and ORM usage
-- Multi-threading and async patterns
-- Interactive data visualization
-- Modular software architecture
-- Production-ready code practices
 
 ## 📄 License
 
