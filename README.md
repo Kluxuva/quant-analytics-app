@@ -1,4 +1,4 @@
-# Real-Time Quantitative Analytics Dashboard
+# Real-Time Quantitative Analytics App
 
 A production-grade real-time analytics platform for pair trading strategies, featuring live data ingestion from Binance WebSocket, statistical analysis, and interactive visualization.
 
